@@ -10,10 +10,10 @@
   .config(function ($routeProvider) {    
     $routeProvider
     .when('/', {
-     templateUrl: 'views/layout.html',
+     templateUrl: 'mainPage/views/mainPage.html',
      controler: 'mainController'
     })
-    .when('/views/signals.html', {
+    .when('mainPage/views/resume.html', {
      templateUrl: 'views/signals.html',
      controler: 'mainController'
    });
