@@ -1,0 +1,7 @@
+#resume-wrapper {
+  height: 750px;
+  width: 100%;
+  background-color: blue;
+  margin: 10px auto;
+  border: 1px solid black
+}
