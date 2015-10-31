@@ -1,0 +1,739 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from C:\Jon\PersonalWebsite\package.json
+5 verbose install where, deps [ 'C:\\Jon\\PersonalWebsite',
+5 verbose install   [ 'angular',
+5 verbose install     'grunt',
+5 verbose install     'grunt-contrib-connect',
+5 verbose install     'grunt-contrib-less',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-open' ] ]
+6 verbose install where, peers [ 'C:\\Jon\\PersonalWebsite', [] ]
+7 verbose installManyTop reading for lifecycle C:\Jon\PersonalWebsite\package.json
+8 info preinstall PersonalWebsite@0.1.0
+9 verbose installManyTop reading scoped package data from C:\Jon\PersonalWebsite\node_modules\angular\package.json
+10 verbose installManyTop reading scoped package data from C:\Jon\PersonalWebsite\node_modules\bower\package.json
+11 verbose installManyTop reading scoped package data from C:\Jon\PersonalWebsite\node_modules\grunt\package.json
+12 verbose installManyTop reading scoped package data from C:\Jon\PersonalWebsite\node_modules\grunt-cli\package.json
+13 verbose installManyTop reading scoped package data from C:\Jon\PersonalWebsite\node_modules\grunt-contrib-connect\package.json
+14 verbose installManyTop reading scoped package data from C:\Jon\PersonalWebsite\node_modules\grunt-contrib-less\package.json
+15 verbose installManyTop reading scoped package data from C:\Jon\PersonalWebsite\node_modules\grunt-contrib-watch\package.json
+16 verbose installManyTop reading scoped package data from C:\Jon\PersonalWebsite\node_modules\grunt-open\package.json
+17 verbose installManyTop reading scoped package data from C:\Jon\PersonalWebsite\node_modules\grunt-serve\package.json
+18 info package.json grunt@0.4.5 No license field.
+19 info package.json grunt-cli@0.1.13 No license field.
+20 info package.json grunt-contrib-less@1.0.1 No license field.
+21 info package.json grunt-open@0.2.3 No license field.
+22 info package.json grunt-serve@0.1.6 No license field.
+23 info package.json grunt-contrib-connect@0.1.2 No license field.
+24 info package.json grunt-contrib-watch@0.6.1 No license field.
+25 verbose readDependencies loading dependencies from C:\Jon\PersonalWebsite\package.json
+26 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\angular\package.json
+27 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\bower\package.json
+28 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\grunt\package.json
+29 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\grunt-cli\package.json
+30 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\grunt-contrib-connect\package.json
+31 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\grunt-contrib-less\package.json
+32 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\grunt-contrib-watch\package.json
+33 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\grunt-open\package.json
+34 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\grunt-serve\package.json
+35 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\.bin\bower\package.json
+36 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\.bin\bower.cmd\package.json
+37 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\.bin\grunt\package.json
+38 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\.bin\grunt-open\package.json
+39 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\.bin\grunt-open.cmd\package.json
+40 verbose targetResolver reading package data from C:\Jon\PersonalWebsite\node_modules\.bin\grunt.cmd\package.json
+41 verbose already installed skipping grunt-contrib-less@^1.0.1 C:\Jon\PersonalWebsite
+42 verbose already installed skipping grunt-contrib-watch@0.6.1 C:\Jon\PersonalWebsite
+43 verbose already installed skipping grunt-open@~0.2.0 C:\Jon\PersonalWebsite
+44 verbose already installed skipping angular@^1.4.7 C:\Jon\PersonalWebsite
+45 verbose already installed skipping grunt@^0.4.5 C:\Jon\PersonalWebsite
+46 verbose already installed skipping grunt-contrib-connect@0.1.2 C:\Jon\PersonalWebsite
+47 silly install resolved []
+48 info build C:\Jon\PersonalWebsite
+49 info linkStuff PersonalWebsite@0.1.0
+50 silly linkStuff PersonalWebsite@0.1.0 has C:\Jon as its parent node_modules
+51 verbose linkBins PersonalWebsite@0.1.0
+52 verbose linkMans PersonalWebsite@0.1.0
+53 verbose rebuildBundles PersonalWebsite@0.1.0
+54 verbose rebuildBundles [ '.bin',
+54 verbose rebuildBundles   'angular',
+54 verbose rebuildBundles   'bower',
+54 verbose rebuildBundles   'grunt',
+54 verbose rebuildBundles   'grunt-cli',
+54 verbose rebuildBundles   'grunt-contrib-connect',
+54 verbose rebuildBundles   'grunt-contrib-less',
+54 verbose rebuildBundles   'grunt-contrib-watch',
+54 verbose rebuildBundles   'grunt-open',
+54 verbose rebuildBundles   'grunt-serve' ]
+55 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower
+56 info build C:\Jon\PersonalWebsite\node_modules\bower
+57 info preinstall bower@1.6.5
+58 info linkStuff bower@1.6.5
+59 silly linkStuff bower@1.6.5 has C:\Jon\PersonalWebsite\node_modules as its parent node_modules
+60 verbose linkBins bower@1.6.5
+61 verbose link bins [ { bower: 'bin/bower' },
+61 verbose link bins   'C:\\Jon\\PersonalWebsite\\node_modules\\.bin',
+61 verbose link bins   false ]
+62 verbose linkMans bower@1.6.5
+63 verbose rebuildBundles bower@1.6.5
+64 verbose rebuildBundles [ '.bin',
+64 verbose rebuildBundles   'abbrev',
+64 verbose rebuildBundles   'archy',
+64 verbose rebuildBundles   'bower-config',
+64 verbose rebuildBundles   'bower-endpoint-parser',
+64 verbose rebuildBundles   'bower-json',
+64 verbose rebuildBundles   'bower-logger',
+64 verbose rebuildBundles   'bower-registry-client',
+64 verbose rebuildBundles   'cardinal',
+64 verbose rebuildBundles   'chalk',
+64 verbose rebuildBundles   'chmodr',
+64 verbose rebuildBundles   'configstore',
+64 verbose rebuildBundles   'decompress-zip',
+64 verbose rebuildBundles   'destroy',
+64 verbose rebuildBundles   'fs-write-stream-atomic',
+64 verbose rebuildBundles   'fstream',
+64 verbose rebuildBundles   'fstream-ignore',
+64 verbose rebuildBundles   'github',
+64 verbose rebuildBundles   'glob',
+64 verbose rebuildBundles   'graceful-fs',
+64 verbose rebuildBundles   'handlebars',
+64 verbose rebuildBundles   'inquirer',
+64 verbose rebuildBundles   'insight',
+64 verbose rebuildBundles   'is-root',
+64 verbose rebuildBundles   'junk',
+64 verbose rebuildBundles   'lockfile',
+64 verbose rebuildBundles   'lru-cache',
+64 verbose rebuildBundles   'md5-hex',
+64 verbose rebuildBundles   'mkdirp',
+64 verbose rebuildBundles   'mout',
+64 verbose rebuildBundles   'nopt',
+64 verbose rebuildBundles   'opn',
+64 verbose rebuildBundles   'p-throttler',
+64 verbose rebuildBundles   'promptly',
+64 verbose rebuildBundles   'q',
+64 verbose rebuildBundles   'request',
+64 verbose rebuildBundles   'request-progress',
+64 verbose rebuildBundles   'retry',
+64 verbose rebuildBundles   'rimraf',
+64 verbose rebuildBundles   'semver',
+64 verbose rebuildBundles   'shell-quote',
+64 verbose rebuildBundles   'stringify-object',
+64 verbose rebuildBundles   'tar-fs',
+64 verbose rebuildBundles   'tmp',
+64 verbose rebuildBundles   'update-notifier',
+64 verbose rebuildBundles   'user-home',
+64 verbose rebuildBundles   'which' ]
+65 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\abbrev
+66 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\abbrev
+67 info preinstall abbrev@1.0.7
+68 info linkStuff abbrev@1.0.7
+69 silly linkStuff abbrev@1.0.7 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+70 verbose linkBins abbrev@1.0.7
+71 verbose linkMans abbrev@1.0.7
+72 verbose rebuildBundles abbrev@1.0.7
+73 info install abbrev@1.0.7
+74 info postinstall abbrev@1.0.7
+75 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\archy
+76 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\archy
+77 info preinstall archy@1.0.0
+78 info linkStuff archy@1.0.0
+79 silly linkStuff archy@1.0.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+80 verbose linkBins archy@1.0.0
+81 verbose linkMans archy@1.0.0
+82 verbose rebuildBundles archy@1.0.0
+83 info install archy@1.0.0
+84 info postinstall archy@1.0.0
+85 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\bower-config
+86 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\bower-config
+87 info preinstall bower-config@1.2.2
+88 info linkStuff bower-config@1.2.2
+89 silly linkStuff bower-config@1.2.2 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+90 verbose linkBins bower-config@1.2.2
+91 verbose linkMans bower-config@1.2.2
+92 verbose rebuildBundles bower-config@1.2.2
+93 verbose rebuildBundles [ 'graceful-fs', 'optimist', 'osenv' ]
+94 info install bower-config@1.2.2
+95 info postinstall bower-config@1.2.2
+96 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\bower-endpoint-parser
+97 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\bower-endpoint-parser
+98 info preinstall bower-endpoint-parser@0.2.2
+99 info linkStuff bower-endpoint-parser@0.2.2
+100 silly linkStuff bower-endpoint-parser@0.2.2 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+101 verbose linkBins bower-endpoint-parser@0.2.2
+102 verbose linkMans bower-endpoint-parser@0.2.2
+103 verbose rebuildBundles bower-endpoint-parser@0.2.2
+104 info install bower-endpoint-parser@0.2.2
+105 info postinstall bower-endpoint-parser@0.2.2
+106 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\bower-json
+107 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\bower-json
+108 info preinstall bower-json@0.4.0
+109 info linkStuff bower-json@0.4.0
+110 silly linkStuff bower-json@0.4.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+111 verbose linkBins bower-json@0.4.0
+112 verbose linkMans bower-json@0.4.0
+113 verbose rebuildBundles bower-json@0.4.0
+114 verbose rebuildBundles [ 'deep-extend', 'graceful-fs', 'intersect' ]
+115 info install bower-json@0.4.0
+116 info postinstall bower-json@0.4.0
+117 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\bower-logger
+118 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\bower-logger
+119 info preinstall bower-logger@0.2.2
+120 info linkStuff bower-logger@0.2.2
+121 silly linkStuff bower-logger@0.2.2 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+122 verbose linkBins bower-logger@0.2.2
+123 verbose linkMans bower-logger@0.2.2
+124 verbose rebuildBundles bower-logger@0.2.2
+125 info install bower-logger@0.2.2
+126 info postinstall bower-logger@0.2.2
+127 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\bower-registry-client
+128 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\bower-registry-client
+129 info preinstall bower-registry-client@1.0.0
+130 info linkStuff bower-registry-client@1.0.0
+131 silly linkStuff bower-registry-client@1.0.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+132 verbose linkBins bower-registry-client@1.0.0
+133 verbose linkMans bower-registry-client@1.0.0
+134 verbose rebuildBundles bower-registry-client@1.0.0
+135 verbose rebuildBundles [ 'async', 'graceful-fs', 'mkdirp', 'request-replay' ]
+136 info install bower-registry-client@1.0.0
+137 info postinstall bower-registry-client@1.0.0
+138 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\cardinal
+139 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\cardinal
+140 info preinstall cardinal@0.4.4
+141 info linkStuff cardinal@0.4.4
+142 silly linkStuff cardinal@0.4.4 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+143 verbose linkBins cardinal@0.4.4
+144 verbose link bins [ { cdl: './bin/cdl.js' },
+144 verbose link bins   'C:\\Jon\\PersonalWebsite\\node_modules\\bower\\node_modules\\.bin',
+144 verbose link bins   false ]
+145 verbose linkMans cardinal@0.4.4
+146 verbose rebuildBundles cardinal@0.4.4
+147 verbose rebuildBundles [ 'ansicolors', 'redeyed' ]
+148 info install cardinal@0.4.4
+149 info postinstall cardinal@0.4.4
+150 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\chalk
+151 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\chalk
+152 info preinstall chalk@1.1.1
+153 info linkStuff chalk@1.1.1
+154 silly linkStuff chalk@1.1.1 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+155 verbose linkBins chalk@1.1.1
+156 verbose linkMans chalk@1.1.1
+157 verbose rebuildBundles chalk@1.1.1
+158 verbose rebuildBundles [ 'ansi-styles',
+158 verbose rebuildBundles   'escape-string-regexp',
+158 verbose rebuildBundles   'has-ansi',
+158 verbose rebuildBundles   'strip-ansi',
+158 verbose rebuildBundles   'supports-color' ]
+159 info install chalk@1.1.1
+160 info postinstall chalk@1.1.1
+161 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\chmodr
+162 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\chmodr
+163 info preinstall chmodr@1.0.2
+164 info linkStuff chmodr@1.0.2
+165 silly linkStuff chmodr@1.0.2 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+166 verbose linkBins chmodr@1.0.2
+167 verbose linkMans chmodr@1.0.2
+168 verbose rebuildBundles chmodr@1.0.2
+169 info install chmodr@1.0.2
+170 info postinstall chmodr@1.0.2
+171 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\configstore
+172 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\configstore
+173 info preinstall configstore@0.3.2
+174 info linkStuff configstore@0.3.2
+175 silly linkStuff configstore@0.3.2 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+176 verbose linkBins configstore@0.3.2
+177 verbose linkMans configstore@0.3.2
+178 verbose rebuildBundles configstore@0.3.2
+179 verbose rebuildBundles [ 'js-yaml', 'object-assign', 'osenv', 'uuid', 'xdg-basedir' ]
+180 info install configstore@0.3.2
+181 info postinstall configstore@0.3.2
+182 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\decompress-zip
+183 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\decompress-zip
+184 info preinstall decompress-zip@0.1.0
+185 info linkStuff decompress-zip@0.1.0
+186 silly linkStuff decompress-zip@0.1.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+187 verbose linkBins decompress-zip@0.1.0
+188 verbose link bins [ { 'decompress-zip': 'bin/decompress-zip' },
+188 verbose link bins   'C:\\Jon\\PersonalWebsite\\node_modules\\bower\\node_modules\\.bin',
+188 verbose link bins   false ]
+189 verbose linkMans decompress-zip@0.1.0
+190 verbose rebuildBundles decompress-zip@0.1.0
+191 verbose rebuildBundles [ 'binary', 'mkpath', 'readable-stream', 'touch' ]
+192 info install decompress-zip@0.1.0
+193 info postinstall decompress-zip@0.1.0
+194 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\destroy
+195 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\destroy
+196 info preinstall destroy@1.0.3
+197 info linkStuff destroy@1.0.3
+198 silly linkStuff destroy@1.0.3 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+199 verbose linkBins destroy@1.0.3
+200 verbose linkMans destroy@1.0.3
+201 verbose rebuildBundles destroy@1.0.3
+202 info install destroy@1.0.3
+203 info postinstall destroy@1.0.3
+204 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\fs-write-stream-atomic
+205 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\fs-write-stream-atomic
+206 info preinstall fs-write-stream-atomic@1.0.4
+207 info linkStuff fs-write-stream-atomic@1.0.4
+208 silly linkStuff fs-write-stream-atomic@1.0.4 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+209 verbose linkBins fs-write-stream-atomic@1.0.4
+210 verbose linkMans fs-write-stream-atomic@1.0.4
+211 verbose rebuildBundles fs-write-stream-atomic@1.0.4
+212 verbose rebuildBundles [ 'graceful-fs' ]
+213 info install fs-write-stream-atomic@1.0.4
+214 info postinstall fs-write-stream-atomic@1.0.4
+215 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\fstream
+216 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\fstream
+217 info preinstall fstream@1.0.8
+218 info linkStuff fstream@1.0.8
+219 silly linkStuff fstream@1.0.8 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+220 verbose linkBins fstream@1.0.8
+221 verbose linkMans fstream@1.0.8
+222 verbose rebuildBundles fstream@1.0.8
+223 verbose rebuildBundles [ 'graceful-fs', 'inherits' ]
+224 info install fstream@1.0.8
+225 info postinstall fstream@1.0.8
+226 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\fstream-ignore
+227 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\fstream-ignore
+228 info preinstall fstream-ignore@1.0.2
+229 info linkStuff fstream-ignore@1.0.2
+230 silly linkStuff fstream-ignore@1.0.2 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+231 verbose linkBins fstream-ignore@1.0.2
+232 verbose linkMans fstream-ignore@1.0.2
+233 verbose rebuildBundles fstream-ignore@1.0.2
+234 verbose rebuildBundles [ 'inherits', 'minimatch' ]
+235 info install fstream-ignore@1.0.2
+236 info postinstall fstream-ignore@1.0.2
+237 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\github
+238 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\github
+239 info preinstall github@0.2.4
+240 info linkStuff github@0.2.4
+241 silly linkStuff github@0.2.4 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+242 verbose linkBins github@0.2.4
+243 verbose linkMans github@0.2.4
+244 verbose rebuildBundles github@0.2.4
+245 verbose rebuildBundles [ 'mime' ]
+246 info install github@0.2.4
+247 info postinstall github@0.2.4
+248 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\glob
+249 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\glob
+250 info preinstall glob@4.5.3
+251 info linkStuff glob@4.5.3
+252 silly linkStuff glob@4.5.3 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+253 verbose linkBins glob@4.5.3
+254 verbose linkMans glob@4.5.3
+255 verbose rebuildBundles glob@4.5.3
+256 verbose rebuildBundles [ 'inflight', 'inherits', 'minimatch', 'once' ]
+257 info install glob@4.5.3
+258 info postinstall glob@4.5.3
+259 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\graceful-fs
+260 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\graceful-fs
+261 info preinstall graceful-fs@3.0.8
+262 info linkStuff graceful-fs@3.0.8
+263 silly linkStuff graceful-fs@3.0.8 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+264 verbose linkBins graceful-fs@3.0.8
+265 verbose linkMans graceful-fs@3.0.8
+266 verbose rebuildBundles graceful-fs@3.0.8
+267 info install graceful-fs@3.0.8
+268 info postinstall graceful-fs@3.0.8
+269 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\handlebars
+270 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\handlebars
+271 info preinstall handlebars@2.0.0
+272 info linkStuff handlebars@2.0.0
+273 silly linkStuff handlebars@2.0.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+274 verbose linkBins handlebars@2.0.0
+275 verbose link bins [ { handlebars: 'bin/handlebars' },
+275 verbose link bins   'C:\\Jon\\PersonalWebsite\\node_modules\\bower\\node_modules\\.bin',
+275 verbose link bins   false ]
+276 verbose linkMans handlebars@2.0.0
+277 verbose rebuildBundles handlebars@2.0.0
+278 verbose rebuildBundles [ 'optimist', 'uglify-js' ]
+279 info install handlebars@2.0.0
+280 info postinstall handlebars@2.0.0
+281 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\inquirer
+282 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\inquirer
+283 info preinstall inquirer@0.10.0
+284 info linkStuff inquirer@0.10.0
+285 silly linkStuff inquirer@0.10.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+286 verbose linkBins inquirer@0.10.0
+287 verbose linkMans inquirer@0.10.0
+288 verbose rebuildBundles inquirer@0.10.0
+289 verbose rebuildBundles [ 'ansi-escapes',
+289 verbose rebuildBundles   'ansi-regex',
+289 verbose rebuildBundles   'cli-cursor',
+289 verbose rebuildBundles   'cli-width',
+289 verbose rebuildBundles   'figures',
+289 verbose rebuildBundles   'lodash',
+289 verbose rebuildBundles   'readline2',
+289 verbose rebuildBundles   'run-async',
+289 verbose rebuildBundles   'rx-lite',
+289 verbose rebuildBundles   'strip-ansi',
+289 verbose rebuildBundles   'through' ]
+290 info install inquirer@0.10.0
+291 info postinstall inquirer@0.10.0
+292 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\insight
+293 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\insight
+294 info preinstall insight@0.7.0
+295 info linkStuff insight@0.7.0
+296 silly linkStuff insight@0.7.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+297 verbose linkBins insight@0.7.0
+298 verbose linkMans insight@0.7.0
+299 verbose rebuildBundles insight@0.7.0
+300 verbose rebuildBundles [ 'async',
+300 verbose rebuildBundles   'configstore',
+300 verbose rebuildBundles   'lodash.debounce',
+300 verbose rebuildBundles   'object-assign',
+300 verbose rebuildBundles   'os-name',
+300 verbose rebuildBundles   'tough-cookie' ]
+301 info install insight@0.7.0
+302 info postinstall insight@0.7.0
+303 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\is-root
+304 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\is-root
+305 info preinstall is-root@1.0.0
+306 info linkStuff is-root@1.0.0
+307 silly linkStuff is-root@1.0.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+308 verbose linkBins is-root@1.0.0
+309 verbose linkMans is-root@1.0.0
+310 verbose rebuildBundles is-root@1.0.0
+311 info install is-root@1.0.0
+312 info postinstall is-root@1.0.0
+313 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\junk
+314 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\junk
+315 info preinstall junk@1.0.2
+316 info linkStuff junk@1.0.2
+317 silly linkStuff junk@1.0.2 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+318 verbose linkBins junk@1.0.2
+319 verbose linkMans junk@1.0.2
+320 verbose rebuildBundles junk@1.0.2
+321 info install junk@1.0.2
+322 info postinstall junk@1.0.2
+323 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\lockfile
+324 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\lockfile
+325 info preinstall lockfile@1.0.1
+326 info linkStuff lockfile@1.0.1
+327 silly linkStuff lockfile@1.0.1 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+328 verbose linkBins lockfile@1.0.1
+329 verbose linkMans lockfile@1.0.1
+330 verbose rebuildBundles lockfile@1.0.1
+331 info install lockfile@1.0.1
+332 info postinstall lockfile@1.0.1
+333 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\lru-cache
+334 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\lru-cache
+335 info preinstall lru-cache@2.7.0
+336 info linkStuff lru-cache@2.7.0
+337 silly linkStuff lru-cache@2.7.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+338 verbose linkBins lru-cache@2.7.0
+339 verbose linkMans lru-cache@2.7.0
+340 verbose rebuildBundles lru-cache@2.7.0
+341 info install lru-cache@2.7.0
+342 info postinstall lru-cache@2.7.0
+343 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\md5-hex
+344 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\md5-hex
+345 info preinstall md5-hex@1.1.0
+346 info linkStuff md5-hex@1.1.0
+347 silly linkStuff md5-hex@1.1.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+348 verbose linkBins md5-hex@1.1.0
+349 verbose linkMans md5-hex@1.1.0
+350 verbose rebuildBundles md5-hex@1.1.0
+351 verbose rebuildBundles [ 'md5-o-matic' ]
+352 info install md5-hex@1.1.0
+353 info postinstall md5-hex@1.1.0
+354 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\mkdirp
+355 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\mkdirp
+356 info preinstall mkdirp@0.5.0
+357 info linkStuff mkdirp@0.5.0
+358 silly linkStuff mkdirp@0.5.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+359 verbose linkBins mkdirp@0.5.0
+360 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+360 verbose link bins   'C:\\Jon\\PersonalWebsite\\node_modules\\bower\\node_modules\\.bin',
+360 verbose link bins   false ]
+361 verbose linkMans mkdirp@0.5.0
+362 verbose rebuildBundles mkdirp@0.5.0
+363 verbose rebuildBundles [ 'minimist' ]
+364 info install mkdirp@0.5.0
+365 info postinstall mkdirp@0.5.0
+366 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\mout
+367 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\mout
+368 info preinstall mout@0.11.0
+369 info linkStuff mout@0.11.0
+370 silly linkStuff mout@0.11.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+371 verbose linkBins mout@0.11.0
+372 verbose linkMans mout@0.11.0
+373 verbose rebuildBundles mout@0.11.0
+374 info install mout@0.11.0
+375 info postinstall mout@0.11.0
+376 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\nopt
+377 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\nopt
+378 info preinstall nopt@3.0.4
+379 info linkStuff nopt@3.0.4
+380 silly linkStuff nopt@3.0.4 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+381 verbose linkBins nopt@3.0.4
+382 verbose link bins [ { nopt: './bin/nopt.js' },
+382 verbose link bins   'C:\\Jon\\PersonalWebsite\\node_modules\\bower\\node_modules\\.bin',
+382 verbose link bins   false ]
+383 verbose linkMans nopt@3.0.4
+384 verbose rebuildBundles nopt@3.0.4
+385 info install nopt@3.0.4
+386 info postinstall nopt@3.0.4
+387 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\opn
+388 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\opn
+389 info preinstall opn@1.0.2
+390 info linkStuff opn@1.0.2
+391 silly linkStuff opn@1.0.2 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+392 verbose linkBins opn@1.0.2
+393 verbose link bins [ { opn: 'cli.js' },
+393 verbose link bins   'C:\\Jon\\PersonalWebsite\\node_modules\\bower\\node_modules\\.bin',
+393 verbose link bins   false ]
+394 verbose linkMans opn@1.0.2
+395 verbose rebuildBundles opn@1.0.2
+396 info install opn@1.0.2
+397 info postinstall opn@1.0.2
+398 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\p-throttler
+399 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\p-throttler
+400 info preinstall p-throttler@0.1.1
+401 info linkStuff p-throttler@0.1.1
+402 silly linkStuff p-throttler@0.1.1 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+403 verbose linkBins p-throttler@0.1.1
+404 verbose linkMans p-throttler@0.1.1
+405 verbose rebuildBundles p-throttler@0.1.1
+406 verbose rebuildBundles [ 'q' ]
+407 info install p-throttler@0.1.1
+408 info postinstall p-throttler@0.1.1
+409 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\promptly
+410 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\promptly
+411 info preinstall promptly@0.2.0
+412 info linkStuff promptly@0.2.0
+413 silly linkStuff promptly@0.2.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+414 verbose linkBins promptly@0.2.0
+415 verbose linkMans promptly@0.2.0
+416 verbose rebuildBundles promptly@0.2.0
+417 verbose rebuildBundles [ 'read' ]
+418 info install promptly@0.2.0
+419 info postinstall promptly@0.2.0
+420 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\q
+421 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\q
+422 info preinstall q@1.4.1
+423 info linkStuff q@1.4.1
+424 silly linkStuff q@1.4.1 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+425 verbose linkBins q@1.4.1
+426 verbose linkMans q@1.4.1
+427 verbose rebuildBundles q@1.4.1
+428 info install q@1.4.1
+429 info postinstall q@1.4.1
+430 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\request
+431 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\request
+432 info preinstall request@2.53.0
+433 info linkStuff request@2.53.0
+434 silly linkStuff request@2.53.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+435 verbose linkBins request@2.53.0
+436 verbose linkMans request@2.53.0
+437 verbose rebuildBundles request@2.53.0
+438 verbose rebuildBundles [ 'aws-sign2',
+438 verbose rebuildBundles   'bl',
+438 verbose rebuildBundles   'caseless',
+438 verbose rebuildBundles   'combined-stream',
+438 verbose rebuildBundles   'forever-agent',
+438 verbose rebuildBundles   'form-data',
+438 verbose rebuildBundles   'hawk',
+438 verbose rebuildBundles   'http-signature',
+438 verbose rebuildBundles   'isstream',
+438 verbose rebuildBundles   'json-stringify-safe',
+438 verbose rebuildBundles   'mime-types',
+438 verbose rebuildBundles   'node-uuid',
+438 verbose rebuildBundles   'oauth-sign',
+438 verbose rebuildBundles   'qs',
+438 verbose rebuildBundles   'stringstream',
+438 verbose rebuildBundles   'tough-cookie',
+438 verbose rebuildBundles   'tunnel-agent' ]
+439 info install request@2.53.0
+440 info postinstall request@2.53.0
+441 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\request-progress
+442 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\request-progress
+443 info preinstall request-progress@0.3.1
+444 info linkStuff request-progress@0.3.1
+445 silly linkStuff request-progress@0.3.1 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+446 verbose linkBins request-progress@0.3.1
+447 verbose linkMans request-progress@0.3.1
+448 verbose rebuildBundles request-progress@0.3.1
+449 verbose rebuildBundles [ 'throttleit' ]
+450 info install request-progress@0.3.1
+451 info postinstall request-progress@0.3.1
+452 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\retry
+453 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\retry
+454 info preinstall retry@0.6.1
+455 info linkStuff retry@0.6.1
+456 silly linkStuff retry@0.6.1 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+457 verbose linkBins retry@0.6.1
+458 verbose linkMans retry@0.6.1
+459 verbose rebuildBundles retry@0.6.1
+460 info install retry@0.6.1
+461 info postinstall retry@0.6.1
+462 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\rimraf
+463 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\rimraf
+464 info preinstall rimraf@2.4.3
+465 info linkStuff rimraf@2.4.3
+466 silly linkStuff rimraf@2.4.3 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+467 verbose linkBins rimraf@2.4.3
+468 verbose link bins [ { rimraf: './bin.js' },
+468 verbose link bins   'C:\\Jon\\PersonalWebsite\\node_modules\\bower\\node_modules\\.bin',
+468 verbose link bins   false ]
+469 verbose linkMans rimraf@2.4.3
+470 verbose rebuildBundles rimraf@2.4.3
+471 verbose rebuildBundles [ 'glob' ]
+472 info install rimraf@2.4.3
+473 info postinstall rimraf@2.4.3
+474 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\semver
+475 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\semver
+476 info preinstall semver@2.3.2
+477 info linkStuff semver@2.3.2
+478 silly linkStuff semver@2.3.2 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+479 verbose linkBins semver@2.3.2
+480 verbose link bins [ { semver: './bin/semver' },
+480 verbose link bins   'C:\\Jon\\PersonalWebsite\\node_modules\\bower\\node_modules\\.bin',
+480 verbose link bins   false ]
+481 verbose linkMans semver@2.3.2
+482 verbose rebuildBundles semver@2.3.2
+483 info install semver@2.3.2
+484 info postinstall semver@2.3.2
+485 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\shell-quote
+486 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\shell-quote
+487 info preinstall shell-quote@1.4.3
+488 info linkStuff shell-quote@1.4.3
+489 silly linkStuff shell-quote@1.4.3 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+490 verbose linkBins shell-quote@1.4.3
+491 verbose linkMans shell-quote@1.4.3
+492 verbose rebuildBundles shell-quote@1.4.3
+493 verbose rebuildBundles [ 'array-filter', 'array-map', 'array-reduce', 'jsonify' ]
+494 info install shell-quote@1.4.3
+495 info postinstall shell-quote@1.4.3
+496 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\stringify-object
+497 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\stringify-object
+498 info preinstall stringify-object@1.0.1
+499 info linkStuff stringify-object@1.0.1
+500 silly linkStuff stringify-object@1.0.1 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+501 verbose linkBins stringify-object@1.0.1
+502 verbose linkMans stringify-object@1.0.1
+503 verbose rebuildBundles stringify-object@1.0.1
+504 info install stringify-object@1.0.1
+505 info postinstall stringify-object@1.0.1
+506 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\tar-fs
+507 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\tar-fs
+508 info preinstall tar-fs@1.8.1
+509 info linkStuff tar-fs@1.8.1
+510 silly linkStuff tar-fs@1.8.1 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+511 verbose linkBins tar-fs@1.8.1
+512 verbose linkMans tar-fs@1.8.1
+513 verbose rebuildBundles tar-fs@1.8.1
+514 verbose rebuildBundles [ 'pump', 'tar-stream' ]
+515 info install tar-fs@1.8.1
+516 info postinstall tar-fs@1.8.1
+517 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\tmp
+518 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\tmp
+519 info preinstall tmp@0.0.24
+520 info linkStuff tmp@0.0.24
+521 silly linkStuff tmp@0.0.24 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+522 verbose linkBins tmp@0.0.24
+523 verbose linkMans tmp@0.0.24
+524 verbose rebuildBundles tmp@0.0.24
+525 info install tmp@0.0.24
+526 info postinstall tmp@0.0.24
+527 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\update-notifier
+528 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\update-notifier
+529 info preinstall update-notifier@0.3.2
+530 info linkStuff update-notifier@0.3.2
+531 silly linkStuff update-notifier@0.3.2 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+532 verbose linkBins update-notifier@0.3.2
+533 verbose linkMans update-notifier@0.3.2
+534 verbose rebuildBundles update-notifier@0.3.2
+535 verbose rebuildBundles [ 'is-npm', 'latest-version', 'semver-diff', 'string-length' ]
+536 info install update-notifier@0.3.2
+537 info postinstall update-notifier@0.3.2
+538 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\user-home
+539 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\user-home
+540 info preinstall user-home@1.1.1
+541 info linkStuff user-home@1.1.1
+542 silly linkStuff user-home@1.1.1 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+543 verbose linkBins user-home@1.1.1
+544 verbose link bins [ { 'user-home': 'cli.js' },
+544 verbose link bins   'C:\\Jon\\PersonalWebsite\\node_modules\\bower\\node_modules\\.bin',
+544 verbose link bins   false ]
+545 verbose linkMans user-home@1.1.1
+546 verbose rebuildBundles user-home@1.1.1
+547 info install user-home@1.1.1
+548 info postinstall user-home@1.1.1
+549 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\bower\node_modules\which
+550 info build C:\Jon\PersonalWebsite\node_modules\bower\node_modules\which
+551 info preinstall which@1.2.0
+552 info linkStuff which@1.2.0
+553 silly linkStuff which@1.2.0 has C:\Jon\PersonalWebsite\node_modules\bower\node_modules as its parent node_modules
+554 verbose linkBins which@1.2.0
+555 verbose link bins [ { which: './bin/which' },
+555 verbose link bins   'C:\\Jon\\PersonalWebsite\\node_modules\\bower\\node_modules\\.bin',
+555 verbose link bins   false ]
+556 verbose linkMans which@1.2.0
+557 verbose rebuildBundles which@1.2.0
+558 verbose rebuildBundles [ 'is-absolute' ]
+559 info install which@1.2.0
+560 info postinstall which@1.2.0
+561 info install bower@1.6.5
+562 info postinstall bower@1.6.5
+563 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\grunt-cli
+564 info build C:\Jon\PersonalWebsite\node_modules\grunt-cli
+565 info preinstall grunt-cli@0.1.13
+566 info linkStuff grunt-cli@0.1.13
+567 silly linkStuff grunt-cli@0.1.13 has C:\Jon\PersonalWebsite\node_modules as its parent node_modules
+568 warn prefer global grunt-cli@0.1.13 should be installed with -g
+569 verbose linkBins grunt-cli@0.1.13
+570 verbose link bins [ { grunt: 'bin/grunt' },
+570 verbose link bins   'C:\\Jon\\PersonalWebsite\\node_modules\\.bin',
+570 verbose link bins   false ]
+571 verbose linkMans grunt-cli@0.1.13
+572 verbose rebuildBundles grunt-cli@0.1.13
+573 verbose rebuildBundles [ '.bin', 'findup-sync', 'nopt', 'resolve' ]
+574 info install grunt-cli@0.1.13
+575 info postinstall grunt-cli@0.1.13
+576 verbose rebuild bundle C:\Jon\PersonalWebsite\node_modules\grunt-serve
+577 info build C:\Jon\PersonalWebsite\node_modules\grunt-serve
+578 info preinstall grunt-serve@0.1.6
+579 info linkStuff grunt-serve@0.1.6
+580 silly linkStuff grunt-serve@0.1.6 has C:\Jon\PersonalWebsite\node_modules as its parent node_modules
+581 verbose linkBins grunt-serve@0.1.6
+582 verbose linkMans grunt-serve@0.1.6
+583 verbose rebuildBundles grunt-serve@0.1.6
+584 verbose rebuildBundles [ '.bin', 'connect', 'dot' ]
+585 info install grunt-serve@0.1.6
+586 info postinstall grunt-serve@0.1.6
+587 info install PersonalWebsite@0.1.0
+588 info postinstall PersonalWebsite@0.1.0
+589 verbose unsafe-perm in lifecycle true
+590 info PersonalWebsite@0.1.0 Failed to exec postinstall script
+591 verbose stack Error: PersonalWebsite@0.1.0 postinstall: `grunt && grunt server`
+591 verbose stack Exit status 3
+591 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+591 verbose stack     at EventEmitter.emit (events.js:110:17)
+591 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+591 verbose stack     at ChildProcess.emit (events.js:110:17)
+591 verbose stack     at maybeClose (child_process.js:1015:16)
+591 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+592 verbose pkgid PersonalWebsite@0.1.0
+593 verbose cwd C:\Jon\PersonalWebsite
+594 error Windows_NT 6.1.7601
+595 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+596 error node v0.12.7
+597 error npm  v2.11.3
+598 error code ELIFECYCLE
+599 error PersonalWebsite@0.1.0 postinstall: `grunt && grunt server`
+599 error Exit status 3
+600 error Failed at the PersonalWebsite@0.1.0 postinstall script 'grunt && grunt server'.
+600 error This is most likely a problem with the PersonalWebsite package,
+600 error not with npm itself.
+600 error Tell the author that this fails on your system:
+600 error     grunt && grunt server
+600 error You can get their info via:
+600 error     npm owner ls PersonalWebsite
+600 error There is likely additional logging output above.
+601 verbose exit [ 1, true ]

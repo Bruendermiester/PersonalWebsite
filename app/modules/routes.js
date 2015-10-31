@@ -3,18 +3,18 @@
   'use strict';
 
   angular
-  .module('hsw.routes', [
+  .module('myRoutes', [
     'ngRoute'
     ])
 
   .config(function ($routeProvider) {    
     $routeProvider
     .when('/', {
-     templateUrl: 'mainPage/views/mainPage.html',
+     templateUrl: 'modules/mainPage/views/mainPage.html',
      controler: 'mainController'
     })
-    .when('mainPage/views/resume.html', {
-     templateUrl: 'views/signals.html',
+    .when('views/resume.html', {
+     templateUrl: 'modules/mainPage/views/signals.html',
      controler: 'mainController'
    });
 
