@@ -29,6 +29,9 @@
 
 .resume {
   margin-left: 20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .myWork {
