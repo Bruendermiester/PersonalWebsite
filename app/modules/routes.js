@@ -13,8 +13,8 @@
      templateUrl: 'modules/mainPage/views/mainPage.html',
      controler: 'mainController'
     })
-    .when('/modules/mainPage/views/resume.html', {
-     templateUrl: 'modules/mainPage/views/resume.html',
+    .when('/modules/resume/views/resume.html', {
+     templateUrl: 'modules/resume/views/resume.html',
      controler: 'mainController'
    });
 
