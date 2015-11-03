@@ -16,7 +16,10 @@
     .when('/modules/resume/views/resume.html', {
      templateUrl: 'modules/resume/views/resume.html',
      controler: 'mainController'
+   })
+    .when('/modules/mywork/views/mywork.html', {
+     templateUrl: 'modules/mywork/views/mywork.html',
+     controler: 'mainController'
    });
-
   });
 })();
