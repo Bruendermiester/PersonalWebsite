@@ -4,7 +4,8 @@
 
   angular
   .module('myWebsite', [
-    'myRoutes'
+    'myRoutes',
+    'slider'
    ]);
 
 })();
